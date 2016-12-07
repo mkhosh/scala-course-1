@@ -1,158 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="22cf8c42-e778-461c-b48c-7d32c85d1cae" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/project/target/config-classes/$736075544378c47e2e6f$$anonfun$$sbtdef$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/project/target/config-classes/$736075544378c47e2e6f$.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/project/target/config-classes/$736075544378c47e2e6f.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$4076c0fbc284463019a2$$anonfun$$sbtdef$1$$anonfun$apply$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$4076c0fbc284463019a2$$anonfun$$sbtdef$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$4076c0fbc284463019a2$.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$4076c0fbc284463019a2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$9e01665f62b98b17bf37$$anonfun$$sbtdef$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$9e01665f62b98b17bf37$.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$9e01665f62b98b17bf37.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$b8141dc20f246fb802ca$$anonfun$$sbtdef$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$b8141dc20f246fb802ca$.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$b8141dc20f246fb802ca.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$bd8d55d33caeefa745fd$$anonfun$$sbtdef$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$bd8d55d33caeefa745fd$.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$bd8d55d33caeefa745fd.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$c10455fc0f448c5844c3$$anonfun$$sbtdef$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$c10455fc0f448c5844c3$.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$c10455fc0f448c5844c3.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$cd63b59d49a2bad873d3$$anonfun$$sbtdef$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$cd63b59d49a2bad873d3$.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$cd63b59d49a2bad873d3.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/streams/$global/$global/$global/streams/out" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.10/input_dsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.10/output_dsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/streams/$global/ivySbt/$global/streams/out" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/streams/$global/projectDescriptors/$global/streams/out" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/inputs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/output" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/streams/$global/updateSbtClassifiers/$global/streams/out" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/streams/compile/compile/$global/streams/out" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/$global/streams/export" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/streams/compile/copyResources/$global/streams/copy-resources" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/.history" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/hello$.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/hello$delayedInit$body.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/hello.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/input_dsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/streams/$global/ivySbt/$global/streams/out" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/streams/$global/projectDescriptors/$global/streams/out" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.12/output" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/hello.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sbt.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build.sbt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/build.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/plugins.sbt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/project/target/config-classes/$736075544378c47e2e6f.cache" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$4076c0fbc284463019a2.cache" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$9e01665f62b98b17bf37.cache" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$b8141dc20f246fb802ca.cache" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$bd8d55d33caeefa745fd.cache" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$c10455fc0f448c5844c3.cache" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$cd63b59d49a2bad873d3.cache" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/resolution-cache/default/hello-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/resolution-cache/default/hello-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-hello-build-compile-internal.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-hello-build-compile.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-hello-build-docs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-hello-build-optional.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-hello-build-plugin.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-hello-build-pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-hello-build-provided.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-hello-build-runtime-internal.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-hello-build-runtime.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-hello-build-scala-tool.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-hello-build-sources.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-hello-build-test-internal.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-hello-build-test.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/ivy-report.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/ivy-report.xsl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/streams/$global/ivyConfiguration/$global/streams/out" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/$global/streams/out" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/streams/compile/copyResources/$global/streams/out" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/$global/streams/export" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/streams/compile/exportedProducts/$global/streams/export" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/streams/compile/internalDependencyClasspath/$global/streams/export" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/streams/compile/managedClasspath/$global/streams/export" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/streams/compile/unmanagedClasspath/$global/streams/export" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/streams/compile/unmanagedJars/$global/streams/export" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/$global/streams/export" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/streams/runtime/exportedProducts/$global/streams/export" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/streams/runtime/externalDependencyClasspath/$global/streams/export" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/$global/streams/export" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/streams/runtime/managedClasspath/$global/streams/export" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/streams/runtime/unmanagedClasspath/$global/streams/export" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/streams/runtime/unmanagedJars/$global/streams/export" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/test.sc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/resolution-cache/default/hello$sbt_2.10/1.0/resolved.xml.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/resolution-cache/default/hello$sbt_2.10/1.0/resolved.xml.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/resolution-cache/default/hello$sources_2.10/1.0/resolved.xml.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/resolution-cache/default/hello$sources_2.10/1.0/resolved.xml.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/resolution-cache/default/hello$sources_2.12/1.0/resolved.xml.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/resolution-cache/default/hello$sources_2.12/1.0/resolved.xml.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/resolution-cache/default/hello_2.12/1.0/resolved.xml.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/resolution-cache/default/hello_2.12/1.0/resolved.xml.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-hello$sbt_2.10-default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-hello$sources_2.10-default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-hello$sources_2.12-compile-internal.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-hello$sources_2.12-compile.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-hello$sources_2.12-docs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-hello$sources_2.12-optional.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-hello$sources_2.12-plugin.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-hello$sources_2.12-pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-hello$sources_2.12-provided.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-hello$sources_2.12-runtime-internal.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-hello$sources_2.12-runtime.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-hello$sources_2.12-scala-tool.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-hello$sources_2.12-sources.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-hello$sources_2.12-test-internal.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-hello$sources_2.12-test.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-hello_2.12-compile-internal.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-hello_2.12-compile.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-hello_2.12-docs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-hello_2.12-optional.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-hello_2.12-plugin.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-hello_2.12-pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-hello_2.12-provided.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-hello_2.12-runtime-internal.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-hello_2.12-runtime.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-hello_2.12-scala-tool.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-hello_2.12-sources.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-hello_2.12-test-internal.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-hello_2.12-test.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/ivy-report.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/ivy-report.xsl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/streams/$global/$global/dumpStructure/$global/streams/out" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/streams/$global/updateSbtClassifiers/$global/streams/out" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/$global/streams/export" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/streams/compile/managedClasspath/$global/streams/export" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/streams/compile/unmanagedClasspath/$global/streams/export" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/streams/compile/unmanagedJars/$global/streams/export" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/$global/streams/export" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/$global/streams/export" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/streams/runtime/unmanagedClasspath/$global/streams/export" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/streams/runtime/unmanagedJars/$global/streams/export" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/$global/streams/export" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/streams/test/unmanagedClasspath/$global/streams/export" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/streams/test/unmanagedJars/$global/streams/export" />
-    </list>
+    <list default="true" id="22cf8c42-e778-461c-b48c-7d32c85d1cae" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/project/project/target/" />
@@ -648,7 +497,14 @@
       <option name="project" value="LOCAL" />
       <updated>1481138483025</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added worksheet&#10;">
+      <created>1481138651648</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1481138651648</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -691,7 +547,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first scala project" />
-    <option name="LAST_COMMIT_MESSAGE" value="first scala project" />
+    <MESSAGE value="added worksheet&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="added worksheet&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
