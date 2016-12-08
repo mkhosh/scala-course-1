@@ -4,7 +4,7 @@
 		module="progfun1-example$sources_2.11"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20161207193612"
+		publication="20161207203034"
 	/>
 	<configurations>
 		<conf name="default" visibility="public" description=""/>
@@ -159,9 +159,6 @@
 		<dependency org="org.scala-sbt" name="logic" rev="0.13.9" transitive="false" conf="default->default(compile)">
 			<artifact name="logic" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 		</dependency>
-		<dependency org="org.scala-sbt" name="compiler-interface" rev="0.13.9" transitive="false" conf="default->default(compile)">
-			<artifact name="compiler-interface" type="src" ext="jar" conf="sources" e:classifier="sources"/>
-		</dependency>
 		<dependency org="org.scala-sbt" name="precompiled-2_8_2" rev="0.13.9" transitive="false" conf="default->default(compile)">
 			<artifact name="precompiled-2_8_2" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 		</dependency>
@@ -188,9 +185,6 @@
 		</dependency>
 		<dependency org="org.apache.commons" name="commons-lang3" rev="3.4" transitive="false" conf="default->default(compile)">
 			<artifact name="commons-lang3" type="src" ext="jar" conf="sources" e:classifier="sources"/>
-		</dependency>
-		<dependency org="com.typesafe.sbteclipse" name="sbteclipse-plugin" rev="4.0.0" transitive="false" conf="default->default(compile)" scalaVersion="2.10" sbtVersion="0.13">
-			<artifact name="sbteclipse-plugin" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 		</dependency>
 		<dependency org="org.scalaz" name="scalaz-core_2.10" rev="7.1.0" transitive="false" conf="default->default(compile)">
 			<artifact name="scalaz-core_2.10" type="src" ext="jar" conf="sources" e:classifier="sources"/>

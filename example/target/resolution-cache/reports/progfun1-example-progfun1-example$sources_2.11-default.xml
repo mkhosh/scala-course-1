@@ -7,107 +7,97 @@
 		revision="0.1-SNAPSHOT"
 		conf="default"
 		confs="default"
-		date="20161207193612"/>
+		date="20161207203034"/>
 	<dependencies>
-		<module organisation="com.typesafe.sbteclipse" name="sbteclipse-plugin">
-			<revision name="4.0.0" status="release" pubdate="20150622145920" resolver="sbt-chain" artresolver="sbt-chain" extra-scalaVersion="2.10" extra-sbtVersion="0.13" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="59">
-				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0.html"/>
-				<metadata-artifact status="no" details="" size="1932" time="0" location="/Users/mkhoshneshin/.ivy2/cache/scala_2.10/sbt_0.13/com.typesafe.sbteclipse/sbteclipse-plugin/ivy-4.0.0.xml" searched="false" origin-is-local="false" origin-location="https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbteclipse/sbteclipse-plugin/scala_2.10/sbt_0.13/4.0.0/ivys/ivy.xml"/>
-				<caller organisation="progfun1-example" name="progfun1-example$sources_2.11" conf="default" rev="4.0.0" rev-constraint-default="4.0.0" rev-constraint-dynamic="4.0.0" callerrev="0.1-SNAPSHOT" extra-scalaVersion="2.10" extra-sbtVersion="0.13"/>
-				<artifacts>
-					<artifact name="sbteclipse-plugin" type="src" ext="jar" extra-classifier="sources" status="failed" details="" size="0" time="0"/>
-				</artifacts>
-			</revision>
-		</module>
 		<module organisation="org.scalaz" name="scalaz-effect_2.10">
-			<revision name="7.1.0" status="release" pubdate="20140801091342" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scalaz.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="61">
+			<revision name="7.1.0" status="release" pubdate="20140801091342" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scalaz.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="59">
 				<license name="BSD-style" url="http://www.opensource.org/licenses/bsd-license.php"/>
 				<metadata-artifact status="no" details="" size="2797" time="0" location="/Users/mkhoshneshin/.ivy2/cache/org.scalaz/scalaz-effect_2.10/ivy-7.1.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalaz/scalaz-effect_2.10/7.1.0/scalaz-effect_2.10-7.1.0.pom"/>
 				<caller organisation="progfun1-example" name="progfun1-example$sources_2.11" conf="default" rev="7.1.0" rev-constraint-default="7.1.0" rev-constraint-dynamic="7.1.0" callerrev="0.1-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="scalaz-effect_2.10" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="24031" time="58" location="/Users/mkhoshneshin/.ivy2/cache/org.scalaz/scalaz-effect_2.10/srcs/scalaz-effect_2.10-7.1.0-sources.jar">
+					<artifact name="scalaz-effect_2.10" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="24031" time="0" location="/Users/mkhoshneshin/.ivy2/cache/org.scalaz/scalaz-effect_2.10/srcs/scalaz-effect_2.10-7.1.0-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalaz/scalaz-effect_2.10/7.1.0/scalaz-effect_2.10-7.1.0-sources.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="org.scalaz" name="scalaz-core_2.10">
-			<revision name="7.1.0" status="release" pubdate="20140801091416" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scalaz.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="60">
+			<revision name="7.1.0" status="release" pubdate="20140801091416" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scalaz.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="58">
 				<license name="BSD-style" url="http://www.opensource.org/licenses/bsd-license.php"/>
 				<metadata-artifact status="no" details="" size="2646" time="0" location="/Users/mkhoshneshin/.ivy2/cache/org.scalaz/scalaz-core_2.10/ivy-7.1.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalaz/scalaz-core_2.10/7.1.0/scalaz-core_2.10-7.1.0.pom"/>
 				<caller organisation="progfun1-example" name="progfun1-example$sources_2.11" conf="default" rev="7.1.0" rev-constraint-default="7.1.0" rev-constraint-dynamic="7.1.0" callerrev="0.1-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="scalaz-core_2.10" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="334686" time="218" location="/Users/mkhoshneshin/.ivy2/cache/org.scalaz/scalaz-core_2.10/srcs/scalaz-core_2.10-7.1.0-sources.jar">
+					<artifact name="scalaz-core_2.10" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="334686" time="0" location="/Users/mkhoshneshin/.ivy2/cache/org.scalaz/scalaz-core_2.10/srcs/scalaz-core_2.10-7.1.0-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalaz/scalaz-core_2.10/7.1.0/scalaz-core_2.10-7.1.0-sources.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="org.apache.commons" name="commons-lang3">
-			<revision name="3.4" status="release" pubdate="20150403053112" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-lang/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="58">
+			<revision name="3.4" status="release" pubdate="20150403053112" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-lang/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="57">
 				<metadata-artifact status="no" details="" size="11571" time="0" location="/Users/mkhoshneshin/.ivy2/cache/org.apache.commons/commons-lang3/ivy-3.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.pom"/>
 				<caller organisation="progfun1-example" name="progfun1-example$sources_2.11" conf="default" rev="3.4" rev-constraint-default="3.4" rev-constraint-dynamic="3.4" callerrev="0.1-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="commons-lang3" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="487156" time="176" location="/Users/mkhoshneshin/.ivy2/cache/org.apache.commons/commons-lang3/srcs/commons-lang3-3.4-sources.jar">
+					<artifact name="commons-lang3" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="487156" time="0" location="/Users/mkhoshneshin/.ivy2/cache/org.apache.commons/commons-lang3/srcs/commons-lang3-3.4-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4-sources.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="commons-codec" name="commons-codec">
-			<revision name="1.10" status="release" pubdate="20141106061535" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-codec/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="57">
+			<revision name="1.10" status="release" pubdate="20141106061535" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-codec/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="56">
 				<metadata-artifact status="no" details="" size="10506" time="0" location="/Users/mkhoshneshin/.ivy2/cache/commons-codec/commons-codec/ivy-1.10.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-codec/commons-codec/1.10/commons-codec-1.10.pom"/>
 				<caller organisation="progfun1-example" name="progfun1-example$sources_2.11" conf="default" rev="1.10" rev-constraint-default="1.10" rev-constraint-dynamic="1.10" callerrev="0.1-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="commons-codec" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="301032" time="110" location="/Users/mkhoshneshin/.ivy2/cache/commons-codec/commons-codec/srcs/commons-codec-1.10-sources.jar">
+					<artifact name="commons-codec" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="301032" time="0" location="/Users/mkhoshneshin/.ivy2/cache/commons-codec/commons-codec/srcs/commons-codec-1.10-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-codec/commons-codec/1.10/commons-codec-1.10-sources.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="org.scalaj" name="scalaj-http_2.10">
-			<revision name="2.2.1" status="release" pubdate="20160105065336" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/scalaj/scalaj-http" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="56">
+			<revision name="2.2.1" status="release" pubdate="20160105065336" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/scalaj/scalaj-http" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="55">
 				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0"/>
 				<metadata-artifact status="no" details="" size="3158" time="0" location="/Users/mkhoshneshin/.ivy2/cache/org.scalaj/scalaj-http_2.10/ivy-2.2.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalaj/scalaj-http_2.10/2.2.1/scalaj-http_2.10-2.2.1.pom"/>
 				<caller organisation="progfun1-example" name="progfun1-example$sources_2.11" conf="default" rev="2.2.1" rev-constraint-default="2.2.1" rev-constraint-dynamic="2.2.1" callerrev="0.1-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="scalaj-http_2.10" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="12831" time="59" location="/Users/mkhoshneshin/.ivy2/cache/org.scalaj/scalaj-http_2.10/srcs/scalaj-http_2.10-2.2.1-sources.jar">
+					<artifact name="scalaj-http_2.10" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="12831" time="0" location="/Users/mkhoshneshin/.ivy2/cache/org.scalaj/scalaj-http_2.10/srcs/scalaj-http_2.10-2.2.1-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalaj/scalaj-http_2.10/2.2.1/scalaj-http_2.10-2.2.1-sources.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="org.scalastyle" name="scalastyle_2.10">
-			<revision name="0.8.0" status="release" pubdate="20151201124424" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scalastyle.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="53">
+			<revision name="0.8.0" status="release" pubdate="20151201124424" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scalastyle.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="52">
 				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
 				<metadata-artifact status="no" details="" size="3427" time="0" location="/Users/mkhoshneshin/.ivy2/cache/org.scalastyle/scalastyle_2.10/ivy-0.8.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalastyle/scalastyle_2.10/0.8.0/scalastyle_2.10-0.8.0.pom"/>
 				<caller organisation="progfun1-example" name="progfun1-example$sources_2.11" conf="default" rev="0.8.0" rev-constraint-default="0.8.0" rev-constraint-dynamic="0.8.0" callerrev="0.1-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="scalastyle_2.10" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="93800" time="117" location="/Users/mkhoshneshin/.ivy2/cache/org.scalastyle/scalastyle_2.10/srcs/scalastyle_2.10-0.8.0-sources.jar">
+					<artifact name="scalastyle_2.10" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="93800" time="0" location="/Users/mkhoshneshin/.ivy2/cache/org.scalastyle/scalastyle_2.10/srcs/scalastyle_2.10-0.8.0-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalastyle/scalastyle_2.10/0.8.0/scalastyle_2.10-0.8.0-sources.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="com.typesafe" name="config">
-			<revision name="1.2.0" status="release" pubdate="20140115070944" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typesafehub/config" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="55">
+			<revision name="1.2.0" status="release" pubdate="20140115070944" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typesafehub/config" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="54">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
 				<metadata-artifact status="no" details="" size="2878" time="0" location="/Users/mkhoshneshin/.ivy2/cache/com.typesafe/config/ivy-1.2.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/config/1.2.0/config-1.2.0.pom"/>
 				<caller organisation="progfun1-example" name="progfun1-example$sources_2.11" conf="default" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="0.1-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="config" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="130916" time="85" location="/Users/mkhoshneshin/.ivy2/cache/com.typesafe/config/srcs/config-1.2.0-sources.jar">
+					<artifact name="config" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="130916" time="0" location="/Users/mkhoshneshin/.ivy2/cache/com.typesafe/config/srcs/config-1.2.0-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/config/1.2.0/config-1.2.0-sources.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="org.scalariform" name="scalariform_2.10">
-			<revision name="0.1.7" status="release" pubdate="20150827174905" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/mdr/scalariform" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="54">
+			<revision name="0.1.7" status="release" pubdate="20150827174905" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/mdr/scalariform" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="53">
 				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
 				<metadata-artifact status="no" details="" size="2787" time="0" location="/Users/mkhoshneshin/.ivy2/cache/org.scalariform/scalariform_2.10/ivy-0.1.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalariform/scalariform_2.10/0.1.7/scalariform_2.10-0.1.7.pom"/>
 				<caller organisation="progfun1-example" name="progfun1-example$sources_2.11" conf="default" rev="0.1.7" rev-constraint-default="0.1.7" rev-constraint-dynamic="0.1.7" callerrev="0.1-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="scalariform_2.10" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="90917" time="76" location="/Users/mkhoshneshin/.ivy2/cache/org.scalariform/scalariform_2.10/srcs/scalariform_2.10-0.1.7-sources.jar">
+					<artifact name="scalariform_2.10" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="90917" time="0" location="/Users/mkhoshneshin/.ivy2/cache/org.scalariform/scalariform_2.10/srcs/scalariform_2.10-0.1.7-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalariform/scalariform_2.10/0.1.7/scalariform_2.10-0.1.7-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -118,51 +108,42 @@
 				<metadata-artifact status="no" details="" size="1772" time="0" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-sbt/sbt/ivy-0.13.9.xml" searched="false" origin-is-local="false" origin-location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/sbt/0.13.9/ivys/ivy.xml"/>
 				<caller organisation="progfun1-example" name="progfun1-example$sources_2.11" conf="default" rev="0.13.9" rev-constraint-default="0.13.9" rev-constraint-dynamic="0.13.9" callerrev="0.1-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="sbt" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="1086" time="2975" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-sbt/sbt/srcs/sbt-0.13.9-sources.jar">
+					<artifact name="sbt" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1086" time="0" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-sbt/sbt/srcs/sbt-0.13.9-sources.jar">
 						<origin-location is-local="false" location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/sbt/0.13.9/srcs/sbt-sources.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="org.scala-sbt" name="precompiled-2_9_3">
-			<revision name="0.13.9" status="release" pubdate="20150810201712" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="52">
+			<revision name="0.13.9" status="release" pubdate="20150810201712" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="51">
 				<metadata-artifact status="no" details="" size="1486" time="0" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-sbt/precompiled-2_9_3/ivy-0.13.9.xml" searched="false" origin-is-local="false" origin-location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/precompiled-2_9_3/0.13.9/ivys/ivy.xml"/>
 				<caller organisation="progfun1-example" name="progfun1-example$sources_2.11" conf="default" rev="0.13.9" rev-constraint-default="0.13.9" rev-constraint-dynamic="0.13.9" callerrev="0.1-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="precompiled-2_9_3" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="30390" time="1728" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-sbt/precompiled-2_9_3/srcs/precompiled-2_9_3-0.13.9-sources.jar">
+					<artifact name="precompiled-2_9_3" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="30390" time="0" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-sbt/precompiled-2_9_3/srcs/precompiled-2_9_3-0.13.9-sources.jar">
 						<origin-location is-local="false" location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/precompiled-2_9_3/0.13.9/srcs/precompiled-2_9_3-sources.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="org.scala-sbt" name="precompiled-2_9_2">
-			<revision name="0.13.9" status="release" pubdate="20150810201712" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="51">
+			<revision name="0.13.9" status="release" pubdate="20150810201712" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="50">
 				<metadata-artifact status="no" details="" size="1486" time="0" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-sbt/precompiled-2_9_2/ivy-0.13.9.xml" searched="false" origin-is-local="false" origin-location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/precompiled-2_9_2/0.13.9/ivys/ivy.xml"/>
 				<caller organisation="progfun1-example" name="progfun1-example$sources_2.11" conf="default" rev="0.13.9" rev-constraint-default="0.13.9" rev-constraint-dynamic="0.13.9" callerrev="0.1-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="precompiled-2_9_2" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="30390" time="1938" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-sbt/precompiled-2_9_2/srcs/precompiled-2_9_2-0.13.9-sources.jar">
+					<artifact name="precompiled-2_9_2" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="30390" time="0" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-sbt/precompiled-2_9_2/srcs/precompiled-2_9_2-0.13.9-sources.jar">
 						<origin-location is-local="false" location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/precompiled-2_9_2/0.13.9/srcs/precompiled-2_9_2-sources.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="org.scala-sbt" name="precompiled-2_8_2">
-			<revision name="0.13.9" status="release" pubdate="20150810201712" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="50">
+			<revision name="0.13.9" status="release" pubdate="20150810201712" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="49">
 				<metadata-artifact status="no" details="" size="1492" time="0" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-sbt/precompiled-2_8_2/ivy-0.13.9.xml" searched="false" origin-is-local="false" origin-location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/precompiled-2_8_2/0.13.9/ivys/ivy.xml"/>
 				<caller organisation="progfun1-example" name="progfun1-example$sources_2.11" conf="default" rev="0.13.9" rev-constraint-default="0.13.9" rev-constraint-dynamic="0.13.9" callerrev="0.1-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="precompiled-2_8_2" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="30390" time="1692" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-sbt/precompiled-2_8_2/srcs/precompiled-2_8_2-0.13.9-sources.jar">
+					<artifact name="precompiled-2_8_2" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="30390" time="0" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-sbt/precompiled-2_8_2/srcs/precompiled-2_8_2-0.13.9-sources.jar">
 						<origin-location is-local="false" location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/precompiled-2_8_2/0.13.9/srcs/precompiled-2_8_2-sources.jar"/>
 					</artifact>
-				</artifacts>
-			</revision>
-		</module>
-		<module organisation="org.scala-sbt" name="compiler-interface">
-			<revision name="0.13.9" status="release" pubdate="20150810202502" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="49">
-				<metadata-artifact status="no" details="" size="1758" time="0" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-sbt/compiler-interface/ivy-0.13.9.xml" searched="false" origin-is-local="false" origin-location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/compiler-interface/0.13.9/ivys/ivy.xml"/>
-				<caller organisation="progfun1-example" name="progfun1-example$sources_2.11" conf="default" rev="0.13.9" rev-constraint-default="0.13.9" rev-constraint-dynamic="0.13.9" callerrev="0.1-SNAPSHOT"/>
-				<artifacts>
-					<artifact name="compiler-interface" type="src" ext="jar" extra-classifier="sources" status="failed" details="" size="0" time="0"/>
 				</artifacts>
 			</revision>
 		</module>
@@ -171,7 +152,7 @@
 				<metadata-artifact status="no" details="" size="2539" time="0" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-sbt/main/ivy-0.13.9.xml" searched="false" origin-is-local="false" origin-location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/main/0.13.9/ivys/ivy.xml"/>
 				<caller organisation="progfun1-example" name="progfun1-example$sources_2.11" conf="default" rev="0.13.9" rev-constraint-default="0.13.9" rev-constraint-dynamic="0.13.9" callerrev="0.1-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="main" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="171863" time="1819" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-sbt/main/srcs/main-0.13.9-sources.jar">
+					<artifact name="main" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="171863" time="0" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-sbt/main/srcs/main-0.13.9-sources.jar">
 						<origin-location is-local="false" location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/main/0.13.9/srcs/main-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -182,7 +163,7 @@
 				<metadata-artifact status="no" details="" size="1649" time="0" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-sbt/logic/ivy-0.13.9.xml" searched="false" origin-is-local="false" origin-location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/logic/0.13.9/ivys/ivy.xml"/>
 				<caller organisation="progfun1-example" name="progfun1-example$sources_2.11" conf="default" rev="0.13.9" rev-constraint-default="0.13.9" rev-constraint-dynamic="0.13.9" callerrev="0.1-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="logic" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="5035" time="1649" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-sbt/logic/srcs/logic-0.13.9-sources.jar">
+					<artifact name="logic" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="5035" time="0" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-sbt/logic/srcs/logic-0.13.9-sources.jar">
 						<origin-location is-local="false" location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/logic/0.13.9/srcs/logic-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -193,7 +174,7 @@
 				<metadata-artifact status="no" details="" size="2687" time="0" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-sbt/main-settings/ivy-0.13.9.xml" searched="false" origin-is-local="false" origin-location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/main-settings/0.13.9/ivys/ivy.xml"/>
 				<caller organisation="progfun1-example" name="progfun1-example$sources_2.11" conf="default" rev="0.13.9" rev-constraint-default="0.13.9" rev-constraint-dynamic="0.13.9" callerrev="0.1-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="main-settings" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="31427" time="1688" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-sbt/main-settings/srcs/main-settings-0.13.9-sources.jar">
+					<artifact name="main-settings" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="31427" time="0" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-sbt/main-settings/srcs/main-settings-0.13.9-sources.jar">
 						<origin-location is-local="false" location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/main-settings/0.13.9/srcs/main-settings-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -204,7 +185,7 @@
 				<metadata-artifact status="no" details="" size="2170" time="0" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-sbt/command/ivy-0.13.9.xml" searched="false" origin-is-local="false" origin-location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/command/0.13.9/ivys/ivy.xml"/>
 				<caller organisation="progfun1-example" name="progfun1-example$sources_2.11" conf="default" rev="0.13.9" rev-constraint-default="0.13.9" rev-constraint-dynamic="0.13.9" callerrev="0.1-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="command" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="20926" time="2186" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-sbt/command/srcs/command-0.13.9-sources.jar">
+					<artifact name="command" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="20926" time="0" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-sbt/command/srcs/command-0.13.9-sources.jar">
 						<origin-location is-local="false" location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/command/0.13.9/srcs/command-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -215,7 +196,7 @@
 				<metadata-artifact status="no" details="" size="1677" time="0" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-sbt/apply-macro/ivy-0.13.9.xml" searched="false" origin-is-local="false" origin-location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/apply-macro/0.13.9/ivys/ivy.xml"/>
 				<caller organisation="progfun1-example" name="progfun1-example$sources_2.11" conf="default" rev="0.13.9" rev-constraint-default="0.13.9" rev-constraint-dynamic="0.13.9" callerrev="0.1-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="apply-macro" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="13450" time="1762" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-sbt/apply-macro/srcs/apply-macro-0.13.9-sources.jar">
+					<artifact name="apply-macro" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="13450" time="0" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-sbt/apply-macro/srcs/apply-macro-0.13.9-sources.jar">
 						<origin-location is-local="false" location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/apply-macro/0.13.9/srcs/apply-macro-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -226,7 +207,7 @@
 				<metadata-artifact status="no" details="" size="3054" time="0" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-sbt/actions/ivy-0.13.9.xml" searched="false" origin-is-local="false" origin-location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/actions/0.13.9/ivys/ivy.xml"/>
 				<caller organisation="progfun1-example" name="progfun1-example$sources_2.11" conf="default" rev="0.13.9" rev-constraint-default="0.13.9" rev-constraint-dynamic="0.13.9" callerrev="0.1-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="actions" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="30474" time="1648" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-sbt/actions/srcs/actions-0.13.9-sources.jar">
+					<artifact name="actions" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="30474" time="0" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-sbt/actions/srcs/actions-0.13.9-sources.jar">
 						<origin-location is-local="false" location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/actions/0.13.9/srcs/actions-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -237,7 +218,7 @@
 				<metadata-artifact status="no" details="" size="1777" time="0" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-sbt/testing/ivy-0.13.9.xml" searched="false" origin-is-local="false" origin-location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/testing/0.13.9/ivys/ivy.xml"/>
 				<caller organisation="progfun1-example" name="progfun1-example$sources_2.11" conf="default" rev="0.13.9" rev-constraint-default="0.13.9" rev-constraint-dynamic="0.13.9" callerrev="0.1-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="testing" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="10144" time="1649" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-sbt/testing/srcs/testing-0.13.9-sources.jar">
+					<artifact name="testing" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="10144" time="0" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-sbt/testing/srcs/testing-0.13.9-sources.jar">
 						<origin-location is-local="false" location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/testing/0.13.9/srcs/testing-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -248,7 +229,7 @@
 				<metadata-artifact status="no" details="" size="1291" time="0" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-sbt/test-agent/ivy-0.13.9.xml" searched="false" origin-is-local="false" origin-location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/test-agent/0.13.9/ivys/ivy.xml"/>
 				<caller organisation="progfun1-example" name="progfun1-example$sources_2.11" conf="default" rev="0.13.9" rev-constraint-default="0.13.9" rev-constraint-dynamic="0.13.9" callerrev="0.1-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="test-agent" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="6352" time="1633" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-sbt/test-agent/srcs/test-agent-0.13.9-sources.jar">
+					<artifact name="test-agent" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="6352" time="0" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-sbt/test-agent/srcs/test-agent-0.13.9-sources.jar">
 						<origin-location is-local="false" location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/test-agent/0.13.9/srcs/test-agent-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -271,7 +252,7 @@
 				<metadata-artifact status="no" details="" size="1369" time="0" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-sbt/tracking/ivy-0.13.9.xml" searched="false" origin-is-local="false" origin-location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/tracking/0.13.9/ivys/ivy.xml"/>
 				<caller organisation="progfun1-example" name="progfun1-example$sources_2.11" conf="default" rev="0.13.9" rev-constraint-default="0.13.9" rev-constraint-dynamic="0.13.9" callerrev="0.1-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="tracking" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="5238" time="1668" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-sbt/tracking/srcs/tracking-0.13.9-sources.jar">
+					<artifact name="tracking" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="5238" time="0" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-sbt/tracking/srcs/tracking-0.13.9-sources.jar">
 						<origin-location is-local="false" location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/tracking/0.13.9/srcs/tracking-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -282,7 +263,7 @@
 				<metadata-artifact status="no" details="" size="1685" time="0" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-sbt/cache/ivy-0.13.9.xml" searched="false" origin-is-local="false" origin-location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/cache/0.13.9/ivys/ivy.xml"/>
 				<caller organisation="progfun1-example" name="progfun1-example$sources_2.11" conf="default" rev="0.13.9" rev-constraint-default="0.13.9" rev-constraint-dynamic="0.13.9" callerrev="0.1-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="cache" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="7071" time="1655" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-sbt/cache/srcs/cache-0.13.9-sources.jar">
+					<artifact name="cache" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="7071" time="0" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-sbt/cache/srcs/cache-0.13.9-sources.jar">
 						<origin-location is-local="false" location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/cache/0.13.9/srcs/cache-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -293,7 +274,7 @@
 				<metadata-artifact status="no" details="" size="1967" time="0" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-sbt/task-system/ivy-0.13.9.xml" searched="false" origin-is-local="false" origin-location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/task-system/0.13.9/ivys/ivy.xml"/>
 				<caller organisation="progfun1-example" name="progfun1-example$sources_2.11" conf="default" rev="0.13.9" rev-constraint-default="0.13.9" rev-constraint-dynamic="0.13.9" callerrev="0.1-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="task-system" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="8976" time="1643" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-sbt/task-system/srcs/task-system-0.13.9-sources.jar">
+					<artifact name="task-system" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="8976" time="0" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-sbt/task-system/srcs/task-system-0.13.9-sources.jar">
 						<origin-location is-local="false" location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/task-system/0.13.9/srcs/task-system-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -304,7 +285,7 @@
 				<metadata-artifact status="no" details="" size="1648" time="0" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-sbt/tasks/ivy-0.13.9.xml" searched="false" origin-is-local="false" origin-location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/tasks/0.13.9/ivys/ivy.xml"/>
 				<caller organisation="progfun1-example" name="progfun1-example$sources_2.11" conf="default" rev="0.13.9" rev-constraint-default="0.13.9" rev-constraint-dynamic="0.13.9" callerrev="0.1-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="tasks" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="11907" time="1719" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-sbt/tasks/srcs/tasks-0.13.9-sources.jar">
+					<artifact name="tasks" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="11907" time="0" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-sbt/tasks/srcs/tasks-0.13.9-sources.jar">
 						<origin-location is-local="false" location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/tasks/0.13.9/srcs/tasks-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -315,7 +296,7 @@
 				<metadata-artifact status="no" details="" size="1849" time="0" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-sbt/run/ivy-0.13.9.xml" searched="false" origin-is-local="false" origin-location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/run/0.13.9/ivys/ivy.xml"/>
 				<caller organisation="progfun1-example" name="progfun1-example$sources_2.11" conf="default" rev="0.13.9" rev-constraint-default="0.13.9" rev-constraint-dynamic="0.13.9" callerrev="0.1-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="run" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="17681" time="1709" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-sbt/run/srcs/run-0.13.9-sources.jar">
+					<artifact name="run" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="17681" time="0" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-sbt/run/srcs/run-0.13.9-sources.jar">
 						<origin-location is-local="false" location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/run/0.13.9/srcs/run-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -326,7 +307,7 @@
 				<metadata-artifact status="no" details="" size="1436" time="0" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-sbt/compiler-ivy-integration/ivy-0.13.9.xml" searched="false" origin-is-local="false" origin-location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/compiler-ivy-integration/0.13.9/ivys/ivy.xml"/>
 				<caller organisation="progfun1-example" name="progfun1-example$sources_2.11" conf="default" rev="0.13.9" rev-constraint-default="0.13.9" rev-constraint-dynamic="0.13.9" callerrev="0.1-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="compiler-ivy-integration" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="1656" time="1895" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-sbt/compiler-ivy-integration/srcs/compiler-ivy-integration-0.13.9-sources.jar">
+					<artifact name="compiler-ivy-integration" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1656" time="0" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-sbt/compiler-ivy-integration/srcs/compiler-ivy-integration-0.13.9-sources.jar">
 						<origin-location is-local="false" location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/compiler-ivy-integration/0.13.9/srcs/compiler-ivy-integration-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -337,7 +318,7 @@
 				<metadata-artifact status="no" details="" size="2260" time="0" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-sbt/ivy/ivy-0.13.9.xml" searched="false" origin-is-local="false" origin-location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/ivy/0.13.9/ivys/ivy.xml"/>
 				<caller organisation="progfun1-example" name="progfun1-example$sources_2.11" conf="default" rev="0.13.9" rev-constraint-default="0.13.9" rev-constraint-dynamic="0.13.9" callerrev="0.1-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="ivy" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="108453" time="1698" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-sbt/ivy/srcs/ivy-0.13.9-sources.jar">
+					<artifact name="ivy" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="108453" time="0" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-sbt/ivy/srcs/ivy-0.13.9-sources.jar">
 						<origin-location is-local="false" location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/ivy/0.13.9/srcs/ivy-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -348,7 +329,7 @@
 				<metadata-artifact status="no" details="" size="2206" time="0" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-sbt/serialization_2.10/ivy-0.1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/serialization_2.10/0.1.1/ivys/ivy.xml"/>
 				<caller organisation="progfun1-example" name="progfun1-example$sources_2.11" conf="default" rev="0.1.1" rev-constraint-default="0.1.1" rev-constraint-dynamic="0.1.1" callerrev="0.1-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="serialization_2.10" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="26036" time="1704" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-sbt/serialization_2.10/srcs/serialization_2.10-0.1.1-sources.jar">
+					<artifact name="serialization_2.10" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="26036" time="0" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-sbt/serialization_2.10/srcs/serialization_2.10-0.1.1-sources.jar">
 						<origin-location is-local="false" location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/serialization_2.10/0.1.1/srcs/serialization_2.10-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -419,7 +400,7 @@
 				<metadata-artifact status="no" details="" size="3211" time="0" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-lang.modules/scala-pickling_2.10/ivy-0.10.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-pickling_2.10/0.10.0/scala-pickling_2.10-0.10.0.pom"/>
 				<caller organisation="progfun1-example" name="progfun1-example$sources_2.11" conf="default" rev="0.10.0" rev-constraint-default="0.10.0" rev-constraint-dynamic="0.10.0" callerrev="0.1-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="scala-pickling_2.10" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="70275" time="63" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-lang.modules/scala-pickling_2.10/srcs/scala-pickling_2.10-0.10.0-sources.jar">
+					<artifact name="scala-pickling_2.10" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="70275" time="0" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-lang.modules/scala-pickling_2.10/srcs/scala-pickling_2.10-0.10.0-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-pickling_2.10/0.10.0/scala-pickling_2.10-0.10.0-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -443,7 +424,7 @@
 				<metadata-artifact status="no" details="" size="3203" time="0" location="/Users/mkhoshneshin/.ivy2/cache/com.jcraft/jsch/ivy-0.1.46.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/jcraft/jsch/0.1.46/jsch-0.1.46.pom"/>
 				<caller organisation="progfun1-example" name="progfun1-example$sources_2.11" conf="default" rev="0.1.46" rev-constraint-default="0.1.46" rev-constraint-dynamic="0.1.46" callerrev="0.1-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="jsch" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="219788" time="87" location="/Users/mkhoshneshin/.ivy2/cache/com.jcraft/jsch/srcs/jsch-0.1.46-sources.jar">
+					<artifact name="jsch" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="219788" time="0" location="/Users/mkhoshneshin/.ivy2/cache/com.jcraft/jsch/srcs/jsch-0.1.46-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/jcraft/jsch/0.1.46/jsch-0.1.46-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -455,7 +436,7 @@
 				<metadata-artifact status="no" details="" size="3556" time="0" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-sbt.ivy/ivy/ivy-2.3.0-sbt-c5d1b95fdcc1e1007740ffbecf4eb07abc51ec93.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-sbt/ivy/ivy/2.3.0-sbt-c5d1b95fdcc1e1007740ffbecf4eb07abc51ec93/ivy-2.3.0-sbt-c5d1b95fdcc1e1007740ffbecf4eb07abc51ec93.pom"/>
 				<caller organisation="progfun1-example" name="progfun1-example$sources_2.11" conf="default" rev="2.3.0-sbt-c5d1b95fdcc1e1007740ffbecf4eb07abc51ec93" rev-constraint-default="2.3.0-sbt-c5d1b95fdcc1e1007740ffbecf4eb07abc51ec93" rev-constraint-dynamic="2.3.0-sbt-c5d1b95fdcc1e1007740ffbecf4eb07abc51ec93" callerrev="0.1-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="ivy" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="885652" time="285" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-sbt.ivy/ivy/srcs/ivy-2.3.0-sbt-c5d1b95fdcc1e1007740ffbecf4eb07abc51ec93-sources.jar">
+					<artifact name="ivy" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="885652" time="0" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-sbt.ivy/ivy/srcs/ivy-2.3.0-sbt-c5d1b95fdcc1e1007740ffbecf4eb07abc51ec93-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-sbt/ivy/ivy/2.3.0-sbt-c5d1b95fdcc1e1007740ffbecf4eb07abc51ec93/ivy-2.3.0-sbt-c5d1b95fdcc1e1007740ffbecf4eb07abc51ec93-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -466,7 +447,7 @@
 				<metadata-artifact status="no" details="" size="1170" time="0" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-sbt/cross/ivy-0.13.9.xml" searched="false" origin-is-local="false" origin-location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/cross/0.13.9/ivys/ivy.xml"/>
 				<caller organisation="progfun1-example" name="progfun1-example$sources_2.11" conf="default" rev="0.13.9" rev-constraint-default="0.13.9" rev-constraint-dynamic="0.13.9" callerrev="0.1-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="cross" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="248" time="1615" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-sbt/cross/srcs/cross-0.13.9-sources.jar">
+					<artifact name="cross" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="248" time="0" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-sbt/cross/srcs/cross-0.13.9-sources.jar">
 						<origin-location is-local="false" location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/cross/0.13.9/srcs/cross-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -477,7 +458,7 @@
 				<metadata-artifact status="no" details="" size="1726" time="0" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-sbt/compiler-integration/ivy-0.13.9.xml" searched="false" origin-is-local="false" origin-location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/compiler-integration/0.13.9/ivys/ivy.xml"/>
 				<caller organisation="progfun1-example" name="progfun1-example$sources_2.11" conf="default" rev="0.13.9" rev-constraint-default="0.13.9" rev-constraint-dynamic="0.13.9" callerrev="0.1-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="compiler-integration" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="12468" time="1765" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-sbt/compiler-integration/srcs/compiler-integration-0.13.9-sources.jar">
+					<artifact name="compiler-integration" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="12468" time="0" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-sbt/compiler-integration/srcs/compiler-integration-0.13.9-sources.jar">
 						<origin-location is-local="false" location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/compiler-integration/0.13.9/srcs/compiler-integration-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -488,7 +469,7 @@
 				<metadata-artifact status="no" details="" size="1783" time="0" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-sbt/persist/ivy-0.13.9.xml" searched="false" origin-is-local="false" origin-location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/persist/0.13.9/ivys/ivy.xml"/>
 				<caller organisation="progfun1-example" name="progfun1-example$sources_2.11" conf="default" rev="0.13.9" rev-constraint-default="0.13.9" rev-constraint-dynamic="0.13.9" callerrev="0.1-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="persist" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="11163" time="1669" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-sbt/persist/srcs/persist-0.13.9-sources.jar">
+					<artifact name="persist" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="11163" time="0" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-sbt/persist/srcs/persist-0.13.9-sources.jar">
 						<origin-location is-local="false" location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/persist/0.13.9/srcs/persist-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -510,7 +491,7 @@
 				<metadata-artifact status="no" details="" size="2288" time="0" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-sbt/compile/ivy-0.13.9.xml" searched="false" origin-is-local="false" origin-location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/compile/0.13.9/ivys/ivy.xml"/>
 				<caller organisation="progfun1-example" name="progfun1-example$sources_2.11" conf="default" rev="0.13.9" rev-constraint-default="0.13.9" rev-constraint-dynamic="0.13.9" callerrev="0.1-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="compile" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="25763" time="1763" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-sbt/compile/srcs/compile-0.13.9-sources.jar">
+					<artifact name="compile" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="25763" time="0" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-sbt/compile/srcs/compile-0.13.9-sources.jar">
 						<origin-location is-local="false" location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/compile/0.13.9/srcs/compile-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -521,7 +502,7 @@
 				<metadata-artifact status="no" details="" size="1774" time="0" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-sbt/classfile/ivy-0.13.9.xml" searched="false" origin-is-local="false" origin-location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/classfile/0.13.9/ivys/ivy.xml"/>
 				<caller organisation="progfun1-example" name="progfun1-example$sources_2.11" conf="default" rev="0.13.9" rev-constraint-default="0.13.9" rev-constraint-dynamic="0.13.9" callerrev="0.1-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="classfile" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="8117" time="1651" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-sbt/classfile/srcs/classfile-0.13.9-sources.jar">
+					<artifact name="classfile" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="8117" time="0" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-sbt/classfile/srcs/classfile-0.13.9-sources.jar">
 						<origin-location is-local="false" location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/classfile/0.13.9/srcs/classfile-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -532,7 +513,7 @@
 				<metadata-artifact status="no" details="" size="1989" time="0" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-sbt/incremental-compiler/ivy-0.13.9.xml" searched="false" origin-is-local="false" origin-location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/incremental-compiler/0.13.9/ivys/ivy.xml"/>
 				<caller organisation="progfun1-example" name="progfun1-example$sources_2.11" conf="default" rev="0.13.9" rev-constraint-default="0.13.9" rev-constraint-dynamic="0.13.9" callerrev="0.1-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="incremental-compiler" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="46242" time="1724" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-sbt/incremental-compiler/srcs/incremental-compiler-0.13.9-sources.jar">
+					<artifact name="incremental-compiler" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="46242" time="0" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-sbt/incremental-compiler/srcs/incremental-compiler-0.13.9-sources.jar">
 						<origin-location is-local="false" location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/incremental-compiler/0.13.9/srcs/incremental-compiler-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -543,7 +524,7 @@
 				<metadata-artifact status="no" details="" size="1678" time="0" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-sbt/relation/ivy-0.13.9.xml" searched="false" origin-is-local="false" origin-location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/relation/0.13.9/ivys/ivy.xml"/>
 				<caller organisation="progfun1-example" name="progfun1-example$sources_2.11" conf="default" rev="0.13.9" rev-constraint-default="0.13.9" rev-constraint-dynamic="0.13.9" callerrev="0.1-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="relation" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="2694" time="1731" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-sbt/relation/srcs/relation-0.13.9-sources.jar">
+					<artifact name="relation" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="2694" time="0" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-sbt/relation/srcs/relation-0.13.9-sources.jar">
 						<origin-location is-local="false" location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/relation/0.13.9/srcs/relation-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -554,7 +535,7 @@
 				<metadata-artifact status="no" details="" size="1759" time="0" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-sbt/logging/ivy-0.13.9.xml" searched="false" origin-is-local="false" origin-location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/logging/0.13.9/ivys/ivy.xml"/>
 				<caller organisation="progfun1-example" name="progfun1-example$sources_2.11" conf="default" rev="0.13.9" rev-constraint-default="0.13.9" rev-constraint-dynamic="0.13.9" callerrev="0.1-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="logging" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="15360" time="1664" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-sbt/logging/srcs/logging-0.13.9-sources.jar">
+					<artifact name="logging" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="15360" time="0" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-sbt/logging/srcs/logging-0.13.9-sources.jar">
 						<origin-location is-local="false" location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/logging/0.13.9/srcs/logging-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -565,7 +546,7 @@
 				<metadata-artifact status="no" details="" size="1255" time="0" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-sbt/process/ivy-0.13.9.xml" searched="false" origin-is-local="false" origin-location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/process/0.13.9/ivys/ivy.xml"/>
 				<caller organisation="progfun1-example" name="progfun1-example$sources_2.11" conf="default" rev="0.13.9" rev-constraint-default="0.13.9" rev-constraint-dynamic="0.13.9" callerrev="0.1-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="process" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="10010" time="1766" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-sbt/process/srcs/process-0.13.9-sources.jar">
+					<artifact name="process" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="10010" time="0" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-sbt/process/srcs/process-0.13.9-sources.jar">
 						<origin-location is-local="false" location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/process/0.13.9/srcs/process-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -576,7 +557,7 @@
 				<metadata-artifact status="no" details="" size="1561" time="0" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-sbt/api/ivy-0.13.9.xml" searched="false" origin-is-local="false" origin-location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/api/0.13.9/ivys/ivy.xml"/>
 				<caller organisation="progfun1-example" name="progfun1-example$sources_2.11" conf="default" rev="0.13.9" rev-constraint-default="0.13.9" rev-constraint-dynamic="0.13.9" callerrev="0.1-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="api" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="25157" time="1624" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-sbt/api/srcs/api-0.13.9-sources.jar">
+					<artifact name="api" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="25157" time="0" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-sbt/api/srcs/api-0.13.9-sources.jar">
 						<origin-location is-local="false" location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/api/0.13.9/srcs/api-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -587,7 +568,7 @@
 				<metadata-artifact status="no" details="" size="1845" time="0" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-sbt/completion/ivy-0.13.9.xml" searched="false" origin-is-local="false" origin-location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/completion/0.13.9/ivys/ivy.xml"/>
 				<caller organisation="progfun1-example" name="progfun1-example$sources_2.11" conf="default" rev="0.13.9" rev-constraint-default="0.13.9" rev-constraint-dynamic="0.13.9" callerrev="0.1-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="completion" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="27987" time="1664" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-sbt/completion/srcs/completion-0.13.9-sources.jar">
+					<artifact name="completion" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="27987" time="0" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-sbt/completion/srcs/completion-0.13.9-sources.jar">
 						<origin-location is-local="false" location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/completion/0.13.9/srcs/completion-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -599,7 +580,7 @@
 				<metadata-artifact status="no" details="" size="3767" time="0" location="/Users/mkhoshneshin/.ivy2/cache/jline/jline/ivy-2.11.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/jline/jline/2.11/jline-2.11.pom"/>
 				<caller organisation="progfun1-example" name="progfun1-example$sources_2.11" conf="default" rev="2.11" rev-constraint-default="2.11" rev-constraint-dynamic="2.11" callerrev="0.1-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="jline" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="84971" time="120" location="/Users/mkhoshneshin/.ivy2/cache/jline/jline/srcs/jline-2.11-sources.jar">
+					<artifact name="jline" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="84971" time="0" location="/Users/mkhoshneshin/.ivy2/cache/jline/jline/srcs/jline-2.11-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/jline/jline/2.11/jline-2.11-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -610,7 +591,7 @@
 				<metadata-artifact status="no" details="" size="1474" time="0" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-sbt/collections/ivy-0.13.9.xml" searched="false" origin-is-local="false" origin-location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/collections/0.13.9/ivys/ivy.xml"/>
 				<caller organisation="progfun1-example" name="progfun1-example$sources_2.11" conf="default" rev="0.13.9" rev-constraint-default="0.13.9" rev-constraint-dynamic="0.13.9" callerrev="0.1-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="collections" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="28491" time="1629" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-sbt/collections/srcs/collections-0.13.9-sources.jar">
+					<artifact name="collections" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="28491" time="0" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-sbt/collections/srcs/collections-0.13.9-sources.jar">
 						<origin-location is-local="false" location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/collections/0.13.9/srcs/collections-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -621,7 +602,7 @@
 				<metadata-artifact status="no" details="" size="1889" time="0" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-sbt/classpath/ivy-0.13.9.xml" searched="false" origin-is-local="false" origin-location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/classpath/0.13.9/ivys/ivy.xml"/>
 				<caller organisation="progfun1-example" name="progfun1-example$sources_2.11" conf="default" rev="0.13.9" rev-constraint-default="0.13.9" rev-constraint-dynamic="0.13.9" callerrev="0.1-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="classpath" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="13335" time="1655" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-sbt/classpath/srcs/classpath-0.13.9-sources.jar">
+					<artifact name="classpath" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="13335" time="0" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-sbt/classpath/srcs/classpath-0.13.9-sources.jar">
 						<origin-location is-local="false" location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/classpath/0.13.9/srcs/classpath-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -644,7 +625,7 @@
 				<metadata-artifact status="no" details="" size="1634" time="0" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-sbt/io/ivy-0.13.9.xml" searched="false" origin-is-local="false" origin-location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/io/0.13.9/ivys/ivy.xml"/>
 				<caller organisation="progfun1-example" name="progfun1-example$sources_2.11" conf="default" rev="0.13.9" rev-constraint-default="0.13.9" rev-constraint-dynamic="0.13.9" callerrev="0.1-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="io" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="26631" time="1664" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-sbt/io/srcs/io-0.13.9-sources.jar">
+					<artifact name="io" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="26631" time="0" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-sbt/io/srcs/io-0.13.9-sources.jar">
 						<origin-location is-local="false" location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/io/0.13.9/srcs/io-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -655,7 +636,7 @@
 				<metadata-artifact status="no" details="" size="1178" time="0" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-sbt/control/ivy-0.13.9.xml" searched="false" origin-is-local="false" origin-location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/control/0.13.9/ivys/ivy.xml"/>
 				<caller organisation="progfun1-example" name="progfun1-example$sources_2.11" conf="default" rev="0.13.9" rev-constraint-default="0.13.9" rev-constraint-dynamic="0.13.9" callerrev="0.1-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="control" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="3201" time="1613" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-sbt/control/srcs/control-0.13.9-sources.jar">
+					<artifact name="control" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="3201" time="0" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-sbt/control/srcs/control-0.13.9-sources.jar">
 						<origin-location is-local="false" location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/control/0.13.9/srcs/control-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -666,7 +647,7 @@
 				<metadata-artifact status="no" details="" size="1206" time="0" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-sbt/interface/ivy-0.13.9.xml" searched="false" origin-is-local="false" origin-location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/interface/0.13.9/ivys/ivy.xml"/>
 				<caller organisation="progfun1-example" name="progfun1-example$sources_2.11" conf="default" rev="0.13.9" rev-constraint-default="0.13.9" rev-constraint-dynamic="0.13.9" callerrev="0.1-SNAPSHOT" extra-component="xsbti"/>
 				<artifacts>
-					<artifact name="interface" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="16121" time="1948" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-sbt/interface/srcs/interface-0.13.9-sources.jar">
+					<artifact name="interface" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="16121" time="0" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-sbt/interface/srcs/interface-0.13.9-sources.jar">
 						<origin-location is-local="false" location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/interface/0.13.9/srcs/interface-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -678,7 +659,7 @@
 				<metadata-artifact status="no" details="" size="2809" time="0" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-lang/scala-compiler/ivy-2.10.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.10.5/scala-compiler-2.10.5.pom"/>
 				<caller organisation="progfun1-example" name="progfun1-example$sources_2.11" conf="default" rev="2.10.5" rev-constraint-default="2.10.5" rev-constraint-dynamic="2.10.5" callerrev="0.1-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="scala-compiler" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="2059305" time="394" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-lang/scala-compiler/srcs/scala-compiler-2.10.5-sources.jar">
+					<artifact name="scala-compiler" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="2059305" time="0" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-lang/scala-compiler/srcs/scala-compiler-2.10.5-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.10.5/scala-compiler-2.10.5-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -690,7 +671,7 @@
 				<metadata-artifact status="no" details="" size="2647" time="0" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-lang/scala-reflect/ivy-2.10.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.5/scala-reflect-2.10.5.pom"/>
 				<caller organisation="progfun1-example" name="progfun1-example$sources_2.11" conf="default" rev="2.10.5" rev-constraint-default="2.10.5" rev-constraint-dynamic="2.10.5" callerrev="0.1-SNAPSHOT" extra-info.apiURL="http://www.scala-lang.org/api/2.10.5/"/>
 				<artifacts>
-					<artifact name="scala-reflect" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="435463" time="102" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-lang/scala-reflect/srcs/scala-reflect-2.10.5-sources.jar">
+					<artifact name="scala-reflect" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="435463" time="0" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-lang/scala-reflect/srcs/scala-reflect-2.10.5-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.5/scala-reflect-2.10.5-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -702,7 +683,7 @@
 				<metadata-artifact status="no" details="" size="2487" time="0" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-lang/scala-library/ivy-2.10.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.pom"/>
 				<caller organisation="progfun1-example" name="progfun1-example$sources_2.11" conf="default" rev="2.10.5" rev-constraint-default="2.10.5" rev-constraint-dynamic="2.10.5" callerrev="0.1-SNAPSHOT" extra-info.apiURL="http://www.scala-lang.org/api/2.10.5/"/>
 				<artifacts>
-					<artifact name="scala-library" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="1064274" time="764" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.10.5-sources.jar">
+					<artifact name="scala-library" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1064274" time="0" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.10.5-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5-sources.jar"/>
 					</artifact>
 				</artifacts>
