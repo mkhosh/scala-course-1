@@ -120,6 +120,7 @@ class ListsSuite extends FunSuite {
 
   test("sum of 1 number") {
     assert(sum(List( 2)) === 2)
+    assert(sum(List( -2)) === -2)
   }
 
   test("sum of 0 number") {
@@ -128,10 +129,12 @@ class ListsSuite extends FunSuite {
 
   test("max of a few numbers") {
     assert(max(List(3, 7, 2)) === 7)
+    assert(max(List(3, -7, 2)) === 3)
   }
 
   test("max of one number") {
     assert(max(List(7)) === 7)
+    assert(max(List(-7)) === -7)
   }
 
   test("max of empty list sends excettion") {
