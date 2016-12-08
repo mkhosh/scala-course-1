@@ -4,7 +4,7 @@
 		module="progfun1-recfun$sbt_2.11"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20161208102439"
+		publication="20161208125851"
 	/>
 	<configurations>
 		<conf name="default" visibility="public"/>
