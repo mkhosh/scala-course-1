@@ -890,9 +890,9 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-agent;0.13.9!test-agent.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.9!apply-macro.jar
-[debug] :: resolution report :: resolve 686ms :: artifacts dl 25ms
+[debug] :: resolution report :: resolve 575ms :: artifacts dl 25ms
 [debug] 	report for progfun1-funsets#progfun1-funsets$sbt_2.11;0.1-SNAPSHOT default produced in /Users/mkhoshneshin/Code/scala-course-1/funsets/target/resolution-cache/reports/progfun1-funsets-progfun1-funsets$sbt_2.11-default.xml
-[debug] 	resolve done (686ms resolve - 25ms download)
+[debug] 	resolve done (575ms resolve - 25ms download)
 [debug] Using inline dependencies specified in Scala.
 [debug] :: resolving dependencies :: progfun1-funsets#progfun1-funsets$sources_2.11;0.1-SNAPSHOT
 [debug] 	confs: [default]
@@ -1334,6 +1334,6 @@
 [debug] 	[NOT REQUIRED] org.apache.commons#commons-lang3;3.4!commons-lang3.jar(src)
 [debug] 	[NOT REQUIRED] org.scalaz#scalaz-core_2.10;7.1.0!scalaz-core_2.10.jar(src)
 [debug] 	[NOT REQUIRED] org.scalaz#scalaz-effect_2.10;7.1.0!scalaz-effect_2.10.jar(src)
-[debug] :: resolution report :: resolve 141ms :: artifacts dl 28ms
+[debug] :: resolution report :: resolve 110ms :: artifacts dl 24ms
 [debug] 	report for progfun1-funsets#progfun1-funsets$sources_2.11;0.1-SNAPSHOT default produced in /Users/mkhoshneshin/Code/scala-course-1/funsets/target/resolution-cache/reports/progfun1-funsets-progfun1-funsets$sources_2.11-default.xml
-[debug] 	resolve done (141ms resolve - 28ms download)
+[debug] 	resolve done (110ms resolve - 24ms download)
