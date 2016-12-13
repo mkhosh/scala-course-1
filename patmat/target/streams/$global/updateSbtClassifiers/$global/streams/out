@@ -839,8 +839,8 @@
 [debug] 	[NOT REQUIRED] org.scalaz#scalaz-core_2.10;7.1.0!scalaz-core_2.10.jar(bundle)
 [debug] 	[NOT REQUIRED] org.scalaz#scalaz-effect_2.10;7.1.0!scalaz-effect_2.10.jar(bundle)
 [debug] 	[NOT REQUIRED] org.scala-sbt#main;0.13.9!main.jar
-[debug] 	[NOT REQUIRED] org.scala-sbt#compiler-interface;0.13.9!compiler-interface-bin.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#compiler-interface;0.13.9!compiler-interface-src.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#compiler-interface;0.13.9!compiler-interface-bin.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_8_2;0.13.9!compiler-interface-bin.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_9_2;0.13.9!compiler-interface-bin.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_9_3;0.13.9!compiler-interface-bin.jar
@@ -890,9 +890,9 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-agent;0.13.9!test-agent.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.9!apply-macro.jar
-[debug] :: resolution report :: resolve 819ms :: artifacts dl 33ms
+[debug] :: resolution report :: resolve 586ms :: artifacts dl 19ms
 [debug] 	report for progfun1-patmat#progfun1-patmat$sbt_2.11;0.1-SNAPSHOT default produced in /Users/mkhoshneshin/Code/scala-course-1/patmat/target/resolution-cache/reports/progfun1-patmat-progfun1-patmat$sbt_2.11-default.xml
-[debug] 	resolve done (819ms resolve - 33ms download)
+[debug] 	resolve done (586ms resolve - 19ms download)
 [debug] Using inline dependencies specified in Scala.
 [debug] :: resolving dependencies :: progfun1-patmat#progfun1-patmat$sources_2.11;0.1-SNAPSHOT
 [debug] 	confs: [default]
@@ -1334,6 +1334,6 @@
 [debug] 	[NOT REQUIRED] org.apache.commons#commons-lang3;3.4!commons-lang3.jar(src)
 [debug] 	[NOT REQUIRED] org.scalaz#scalaz-core_2.10;7.1.0!scalaz-core_2.10.jar(src)
 [debug] 	[NOT REQUIRED] org.scalaz#scalaz-effect_2.10;7.1.0!scalaz-effect_2.10.jar(src)
-[debug] :: resolution report :: resolve 128ms :: artifacts dl 20ms
+[debug] :: resolution report :: resolve 150ms :: artifacts dl 18ms
 [debug] 	report for progfun1-patmat#progfun1-patmat$sources_2.11;0.1-SNAPSHOT default produced in /Users/mkhoshneshin/Code/scala-course-1/patmat/target/resolution-cache/reports/progfun1-patmat-progfun1-patmat$sources_2.11-default.xml
-[debug] 	resolve done (128ms resolve - 20ms download)
+[debug] 	resolve done (150ms resolve - 18ms download)
