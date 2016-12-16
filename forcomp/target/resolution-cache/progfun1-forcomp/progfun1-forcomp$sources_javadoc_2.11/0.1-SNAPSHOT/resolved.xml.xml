@@ -4,7 +4,7 @@
 		module="progfun1-forcomp$sources_javadoc_2.11"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20161215124851"
+		publication="20161216160534"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>
